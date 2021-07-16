@@ -1,0 +1,187 @@
+.parent {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.child:first-child {
+    background-image: orange;
+}
+
+.child:last-child {
+    background: turquoise;
+}
+
+.main-app {
+    width: 100%;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+
+p {
+    color: #ffffff;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.middle-data {
+    margin-left: 50%;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 44, 0.89);
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+}
+
+th {
+    background-color: rgb(117, 201, 250);
+}
+
+td {
+    background-color: white;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form * {
+    font-size: 28px;
+}
+
+.icon1,
+.icon2 {
+    color: rgb(64, 200, 224);
+    text-size-adjust: 2px;
+}
+
+.bttn {
+    background-color: rgb(44, 209, 238);
+    padding: 5px;
+    border: 1px solid turquoise;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #DCDDDF;
+}
+
+.bg-gray {
+    background-color: #2F2F2F
+}
+
+.bg-green {
+    background-color: #00A74B
+}
+
+.bg-navy {
+    background-color: #29BDC2
+}
+
+.bg-gold {
+    background-color: #C2993B
+}
+
+.bg-pink {
+    background-color: #962297
+}
+
+.bg-blue {
+    background-color: #005A93
+}
+
+.bg-brown {
+    background-color: #6A5718
+}
+
+.dinline {
+    display: inline-block
+}
+
+.header,
+.tab-view {
+    margin: 10px;
+    padding: 10px;
+    clear: both
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.text_color {
+    color: #3498DB
+}
+
+label,
+input {
+    padding: 8px;
+}
+
+.search_bttn {
+    padding: 10px;
+    background: #37C4C9
+}
+
+.export_bttn {
+    padding: 10px;
+    border: 1px solid #4E94F4;
+    color: #4692F2
+}
+
+.col2 {
+    width: 20%
+}
+
+.col3 {
+    width: 25%
+}
+
+.col8 {
+    width: 80%
+}
+
+.col8 p {
+    color: #fff;
+    padding: 10px;
+    margin: 1% 0% 1% 1%
+}
+
+.col2 p {
+    color: #fff;
+    padding: 40px 10px;
+    margin: 1%
+}
